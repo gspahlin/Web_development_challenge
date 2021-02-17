@@ -1,0 +1,40 @@
+/* stylesheet for the front page of my weather dashboard */
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+.navbar{
+
+    background-color: gainsboro;
+}
+
+.navbar li {
+
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+body{
+
+    background-image: url(image_files/WP_20130812_045.jpg)
+
+}
+
+main{
+    background-color: gainsboro;
+    border-width: 1px;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-indent: 30px;
+
+}
