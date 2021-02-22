@@ -9,12 +9,23 @@ h1 {
     background-color: gainsboro;
 }
 
+.sidebar{
+
+  float: left;  
+}
+
 .navbar li {
 
     display: inline-block;
     padding: 20px;
     margin-right: 10px;
     margin-left: 10px;
+
+}
+
+.center-box {
+
+    float:right;
 
 }
 
@@ -38,3 +49,7 @@ p {
     text-indent: 30px;
 
 }
+
+/* section for devices with fewer than 600 px screens (currently commented out) */
+
+/* @media (max-width: 600px { <styles go in the curly braces> } */

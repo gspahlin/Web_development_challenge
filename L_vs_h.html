@@ -3,6 +3,12 @@
 
     <head>
         <meta charset="UTF-8">
+
+         <!-- Bring in our bootstrap stylesheet -->
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+          crossorigin="anonymous">
+      
         <title>Weather Project Intro</title>
         <link rel="stylesheet" href="spl_styles.css">
     </head>
@@ -18,17 +24,14 @@
                   <a href="L_vs_t.html">Latitude vs. Temperature</a>
                 </li>
                 <li>
-                  <a href="L_vs_ws">Latitude vs. Wind Speed</a>
+                  <a href="L_vs_ws.html">Latitude vs. Wind Speed</a>
                 </li>
                 <li>
                   <a href="L_vs_cc.html">Latitude vs Cloud Cover</a>
                 </li>
                 <li>
                   <a href="comparisons.html">Comparisons</a>
-                </li>
-                <li>
-                  <a href="visualization.html">Visualization</a>
-                </li>
+                </li>               
                 <li>
                   <a href="data.html">Data</a>
                 </li>
@@ -38,14 +41,26 @@
            <h1>The Relationship between Latitude and Humidity</h1>
         </header>
         <main>
-            <section class="posts">
-              <article class="post">
-                <h3>Humidity Does Not Correlate with Latitude</h3>
-                <p>  When I say more about that, its going here
-                                    
-                </p>
-              </article>
-            </section>
+          <div class = "row">
+            <div class = "col-md-6">
+             
+              <img src = "image_files/l_vs_h.png" alt="Latitude vs. Temperature Plot">
+              <img src = "image_files/l_vs_h_regress.png" alt="Latitude vs. Temperature Plot">
+              
+              
+            </div>
+            <div class = "col-md-6">
+              
+                <article class="post">
+                  <h3>Humidity Does Not Correlate with Latitude</h3>
+                  <br>
+                  <p> Humidity does not correlate with latitude. This shouldn't come as a surprise, as there is no physical reason to think it should. 
+                  </p>
+                </article>
+              
+  
+            </div>
+            </div>
         </main>
 
     </body>

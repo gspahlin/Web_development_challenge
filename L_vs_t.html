@@ -3,6 +3,12 @@
 
     <head>
         <meta charset="UTF-8">
+
+        <!-- Bring in our bootstrap stylesheet -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous">
+        
         <title>Weather Project Intro</title>
         <link rel="stylesheet" href="spl_styles.css">
     </head>
@@ -25,10 +31,7 @@
                 </li>
                 <li>
                     <a href="comparisons.html">Comparisons</a>
-                </li>
-                <li>
-                    <a href="visualization">Visualization</a>
-                </li>
+                </li>                
                 <li>
                     <a href="data.html">Data</a>
                 </li>
@@ -38,14 +41,30 @@
            <h1>The Relationship between Latitude and Temperature</h1>
         </header>
         <main>
-            <section class="posts">
-              <article class="post">
-                <h3>Temperature Correlates with Latitude</h3>
-                <p>  When I say more about that, its going here
-                                    
-                </p>
-              </article>
-            </section>
+          <div class = "row">
+            <div class = "col-md-6">
+             
+              <img src = "image_files/l_vs_t.png" alt="Latitude vs. Temperature Plot">
+              <img src = "image_files/l_vs_t_north_regress.png" alt="Latitude vs. Temperature Plot">
+              <img src = "image_files/l_vs_t_south_regress.png" alt="Latitude vs. Temperature Plot">
+              
+            </div>
+            <div class = "col-md-6">
+              
+                <article class="post">
+                  <h3>Temperature Correlates with Latitude</h3>
+                  <br>
+                  <p>  Temperature correlates with latitude, but as you can see, the sign of the correlation is dependant on the hemisphere. This 
+                    is because the warmest temperatures are always near the equator, which gets the most direct sunlight of any region of earth. This data was
+                    taken in January. Because of that the correlation is stronger in the northern hemisphere, where it is winter. The fact that it is winter means
+                    that the difference in direct sunlight received at the equator and the north pole is much greater than in the south. 
+                  </p>
+                </article>
+              
+  
+            </div>
+            </div>
+            
         </main>
 
     </body>

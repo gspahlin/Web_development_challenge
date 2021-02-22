@@ -3,6 +3,12 @@
 
     <head>
         <meta charset="UTF-8">
+
+        <!-- Bring in our bootstrap stylesheet -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous">
+        
         <title>Weather Project Intro</title>
         <link rel="stylesheet" href="spl_styles.css">
     </head>
@@ -25,26 +31,34 @@
                 </li>
                 <li>
                     <a href="Splashpage.html">Home</a>
-                </li>
-                <li>
-                    <a href="visualization.html">Visualization</a>
-                </li>
+                </li>                
                 <li>
                     <a href="data.html">Data</a>
                 </li>
               </ul>
             </nav>
         <header class="header">
-           <h1>Comparisons</h1>
+           <h1>Comparisons: Latitude</h1>
         </header>
         <main>
-            <section class="posts">
-              <article class="post">
-                <h3>Placeholder</h3>
-                <p> More stuff.                     
-                </p>
-              </article>
-            </section>
+          <div class = "row">
+            <div class = "col-md-6">
+             <h2> vs. Temperature</h2>
+              <img src = "image_files/l_vs_t.png" alt="Latitude vs. Temperature Plot">
+              <h2> vs. Wind Speed</h2>
+              <img src = "image_files/l_vs_ws.png" alt="Latitude vs. Temperature Plot">
+              
+              
+            </div>
+            <div class = "col-md-6">
+              <h2> vs. Cloud Cover</h2>
+              <img src = "image_files/l_vs_cc.png" alt="Latitude vs. Temperature Plot">
+              <h2> vs. Humidity</h2>
+              <img src = "image_files/l_vs_h.png" alt="Latitude vs. Temperature Plot">
+              
+  
+            </div>
+            </div>
         </main>
 
     </body>

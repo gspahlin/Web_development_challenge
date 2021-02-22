@@ -3,6 +3,12 @@
 
     <head>
         <meta charset="UTF-8">
+
+        <!-- Bring in our bootstrap stylesheet -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous">
+        
         <title>Weather Project Intro</title>
         <link rel="stylesheet" href="spl_styles.css">
     </head>
@@ -25,10 +31,7 @@
                 </li>
                 <li>
                   <a href="comparisons.html">Comparisons</a>
-                </li>
-                <li>
-                  <a href="visualization.html">Visualization</a>
-                </li>
+                </li>               
                 <li>
                   <a href="data.html">Data</a>
                 </li>
@@ -38,14 +41,27 @@
            <h1>The Relationship between Latitude and Cloud Cover</h1>
         </header>
         <main>
-            <section class="posts">
-              <article class="post">
-                <h3>Humidity Does Not Correlate with Cloud Cover</h3>
-                <p>  When I say more about that, its going here
-                                    
-                </p>
-              </article>
-            </section>
+          <div class = "row">
+            <div class = "col-md-6">
+             
+              <img src = "image_files/l_vs_cc.png" alt="Latitude vs. Temperature Plot">
+              <img src = "image_files/l_vs_cc_regress.png" alt="Latitude vs. Temperature Plot">
+                            
+            </div>
+            <div class = "col-md-6">
+              
+                <article class="post">
+                  <h3>Cloud Cover Does Not Correlate with Latitude</h3>
+                  <br>
+                  <p>  Cloud cover does not show a significant correlation with latitude. This is not a surprise, as there is no reason to think it should.
+                    The plots for cloud cover show horizontal lines at certain percentages. This is likely explained by people estimating cloud cover, which leads
+                    to modal values at "round" figures like 75% or 90%.  
+                  </p>
+                </article>
+              
+  
+            </div>
+            </div>
         </main>
 
     </body>
