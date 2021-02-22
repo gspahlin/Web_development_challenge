@@ -9,10 +9,6 @@ h1 {
     background-color: gainsboro;
 }
 
-.sidebar{
-
-  float: left;  
-}
 
 .navbar li {
 
@@ -23,11 +19,7 @@ h1 {
 
 }
 
-.center-box {
 
-    float:right;
-
-}
 
 body{
 
@@ -50,6 +42,13 @@ p {
 
 }
 
-/* section for devices with fewer than 600 px screens (currently commented out) */
+/* section for devices with fewer than 600 px screens  */
 
-/* @media (max-width: 600px { <styles go in the curly braces> } */
+ @media (max-width: 600px { 
+
+.navbar{
+    width: 300px; 
+
+}
+
+  }
